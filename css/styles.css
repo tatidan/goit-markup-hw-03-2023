@@ -68,7 +68,6 @@ img {
 .header .container {
   display: flex;
   justify-content: space-between;
-  padding: 24px 15px;
 }
 
 .header-left {
@@ -88,6 +87,7 @@ img {
 .header-navigation .nav-link {
   color: var(--primary-black-color);
   font-weight: 500;
+  display: block;
   padding: 24px 0;
 }
 
@@ -115,7 +115,10 @@ img {
   display: flex;
   gap: 40px;
 }
-
+.header-address > li {
+  display: block;
+  padding: 24px 0;
+}
 .header-address .address-link {
   color: var(--text-color);
 }
